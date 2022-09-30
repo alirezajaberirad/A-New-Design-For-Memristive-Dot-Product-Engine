@@ -1,0 +1,57 @@
+***** HSPICE -- H-2013.03-SP2 64-BIT (Aug 26 2013) win64 ******
+ Input File: normal_crossbar_normal_transistor_big_resistance_range.sp
+ lic:
+ lic: FLEXlm: v10.9.8
+ lic: USER:   Alireza              HOSTNAME: DESKTOP-O03KROI
+ lic: HOSTID: "f8e4e3ae3854 005056c00001 005056c00008 444553544f53 00fff93d48a0 f8e4e3ae3850 f8e4e3a
+ lic: Using FLEXlm license file:
+ lic: C:\hspice_lic\synopsys.dat
+ lic: Checkout 1 hspice
+ lic: License/Maintenance for hspice will expire on 31-dec-2019/2019.12
+ lic: NODE LOCKED license on hostid "f8e4e3ae3854 005056c00001 005056c00008 444553544f53 00fff93d48a
+ lic:
+ init: begin read circuit files,  cpu clock=  5.80E-02
+       option search = C:\synopsys\Hspice_H-2013.03-SP2\PARTS\behave\
+       option search = C:\synopsys\Hspice_H-2013.03-SP2\PARTS\behave\
+       option search = C:\synopsys\Hspice_H-2013.03-SP2\PARTS\AD\
+       option search = C:\synopsys\Hspice_H-2013.03-SP2\PARTS\XILINX\
+       option search = C:\synopsys\Hspice_H-2013.03-SP2\PARTS\TLINE\
+       option search = C:\synopsys\Hspice_H-2013.03-SP2\PARTS\TI\
+       option search = C:\synopsys\Hspice_H-2013.03-SP2\PARTS\SIGNET\
+       option search = C:\synopsys\Hspice_H-2013.03-SP2\PARTS\PCI\
+       option search = C:\synopsys\Hspice_H-2013.03-SP2\PARTS\LIN_TECH\
+       option search = C:\synopsys\Hspice_H-2013.03-SP2\PARTS\FET\
+       option search = C:\synopsys\Hspice_H-2013.03-SP2\PARTS\DIO\
+       option search = C:\synopsys\Hspice_H-2013.03-SP2\PARTS\COMLINE\
+       option search = C:\synopsys\Hspice_H-2013.03-SP2\PARTS\BURR_BRN\
+       option search = C:\synopsys\Hspice_H-2013.03-SP2\PARTS\BJT\
+       option search = C:\synopsys\Hspice_H-2013.03-SP2\PARTS\behave\
+       option search = C:\synopsys\Hspice_H-2013.03-SP2\PARTS\AD\
+       option post =     2.00
+       option runlvl
+       option post =     2.00
+       option mtthresh
+ init: end read circuit files,  cpu clock=  1.07E-01 peak memory=        40 mb
+ init: begin check errors,  cpu clock=  1.07E-01
+ init: end check errors,  cpu clock=  1.52E-01 peak memory=        41 mb
+ init: begin setup matrix, pivot=     0 cpu clock=  1.52E-01
+       establish matrix -- done,  cpu clock=  1.55E-01 peak memory=        42 mb
+       re-order matrix -- done,  cpu clock=  1.57E-01 peak memory=        42 mb
+ init: end setup matrix,  cpu clock=  1.58E-01 peak memory=        42 mb
+ dcop: begin dcop,  cpu clock=  1.59E-01
+ dcop: end dcop,  cpu clock=  1.76E-01 peak memory=        42 mb  tot_iter=      62
+ output: normal_crossbar_normal_transistor_big_resistance_range.mt0
+ sweep: tran tran0    begin, stop_t=  1.00E-05 #sweeps=2006 cpu clock=  1.88E-01
+ tran: time= 1.0030E-06 tot_iter=  232146 conv_iter=  102007 cpu clock= 5.61E+00
+ tran: time= 2.0060E-06 tot_iter=  465075 conv_iter=  203865 cpu clock= 1.12E+01
+ tran: time= 3.0090E-06 tot_iter=  697070 conv_iter=  305805 cpu clock= 1.70E+01
+ tran: time= 4.0120E-06 tot_iter=  929059 conv_iter=  407680 cpu clock= 2.24E+01
+ tran: time= 5.0150E-06 tot_iter= 1161626 conv_iter=  509644 cpu clock= 2.78E+01
+ tran: time= 6.0180E-06 tot_iter= 1393684 conv_iter=  611625 cpu clock= 3.34E+01
+ tran: time= 7.0212E-06 tot_iter= 1624957 conv_iter=  713487 cpu clock= 3.87E+01
+ tran: time= 8.0240E-06 tot_iter= 1858661 conv_iter=  815597 cpu clock= 4.41E+01
+ tran: time= 9.0270E-06 tot_iter= 2090391 conv_iter=  917454 cpu clock= 4.98E+01
+ tran: time= 1.0030E-05 tot_iter= 2321492 conv_iter= 1019440 cpu clock= 5.52E+01
+ sweep: tran tran0    end,  cpu clock=  5.52E+01 peak memory=        42 mb
+>info:         ***** hspice job concluded
+ lic: Release hspice token(s)

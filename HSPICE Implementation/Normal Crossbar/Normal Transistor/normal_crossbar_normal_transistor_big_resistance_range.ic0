@@ -1,0 +1,26 @@
+* "simulator" "HSPICE" 
+* "version" "H-2013.03-SP2 64-BIT"
+* "format" "HSP"
+* "rundate" "12:06:54 07/10/2013 "
+* "netlist" "normal_crossbar_normal_transistor_big_resistance_range.sp "
+* "runtitle" "normal crossbar with normal transistors and big resistance range of me"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ bias =   0.            
++ bl1 = 333.3333m       
++ bl2 =   1.0000        
++ bl3 =   0.            
++ bl4 =   1.0000        
++ expected =   1.0000        
++ nb1 =  58.7476m       
++ nb2 = 139.1168m       
++ nb3 =   1.0055u       
++ nb4 = 654.8024u       
++ sl1 =   0.            
++ vo = 855.4614m       
++ wl =   1.0000        
+***   END: Saved Operating Point ***                     

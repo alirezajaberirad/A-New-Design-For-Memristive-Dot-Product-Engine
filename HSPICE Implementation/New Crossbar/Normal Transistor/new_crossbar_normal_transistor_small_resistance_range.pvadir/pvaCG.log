@@ -1,0 +1,18 @@
+Args: pva -p hsp -t spi -f new_crossbar_normal_transistor_small_resistance_range.pvadir/pvaHDL.lis -o new_crossbar_normal_transistor_small_resistance_range.pvadir
+
+Begin of pVA compiling on Wed Jul 10 13:12:41 2013
+
+Parsing './rram.va'
+Parsing include file 'C:/synopsys/Hspice_H-2013.03-SP2/include/constants.vams'
+Parsing include file 'C:/synopsys/Hspice_H-2013.03-SP2/include/disciplines.vams'
+
+End of pVA compiling on Wed Jul 10 13:12:41 2013
+
+
+End of build pVA DB on Wed Jul 10 13:12:41 2013
+
+
+new_crossbar_normal_transistor_small_resistance_range.pvadir\pvaRTL_win64.dll is reused
+
+End of pVA elaboration on Wed Jul 10 13:12:41 2013
+

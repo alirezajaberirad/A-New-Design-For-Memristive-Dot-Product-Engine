@@ -1,0 +1,45 @@
+
+ --------------------------------------------------------
+|                                                        |
+|          Synopsys Unified Verilog-A (pVA v3.0)         |
+|                                                        |
+|              Machine Name: DESKTOP-O03KROI             |
+| Copyright (c) 2013 Synopsys Inc., All Rights Reserved. |
+|                                                        |
+ --------------------------------------------------------
+
+libepva built by hspmgr synmake_pva_build  on Wed Jul 24 10:18:53 CST 2013
+HSP_HOME:   C:\synopsys\Hspice_H-2013.03-SP2
+HSP_ARCH:   win64
+HSP_GCC :   C:\synopsys\Hspice_H-2013.03-SP2\GNU\win64\bin\gcc
+HSP_GCC_VER:   3.4.5
+Working-Dir: E:\UT_Courses\Project\HSPICE implementation\New Crossbar\Normal Transistor
+Args:        -p hsp -t spi -f new_crossbar_normal_transistor_small_resistance_range.pvadir/pvaHDL.lis -o new_crossbar_normal_transistor_small_resistance_range.pvadir 
+
+### optimize mode ###
+Args: pva -p hsp -t spi -f new_crossbar_normal_transistor_small_resistance_range.pvadir/pvaHDL.lis -o new_crossbar_normal_transistor_small_resistance_range.pvadir
+
+Begin of pVA compiling on Wed Jul 10 13:12:41 2013
+
+Parsing './rram.va'
+Parsing include file 'C:/synopsys/Hspice_H-2013.03-SP2/include/constants.vams'
+Parsing include file 'C:/synopsys/Hspice_H-2013.03-SP2/include/disciplines.vams'
+
+End of pVA compiling on Wed Jul 10 13:12:41 2013
+
+
+End of build pVA DB on Wed Jul 10 13:12:41 2013
+
+
+new_crossbar_normal_transistor_small_resistance_range.pvadir\pvaRTL_win64.dll is reused
+
+End of pVA elaboration on Wed Jul 10 13:12:41 2013
+
+*pvaI* Creating VA module (RRAM) for instance XREF4 with gmd reduction
+*pvaI* Creating VA module (RRAM) for instance X3 with gmd reduction
+*pvaI* Creating VA module (RRAM) for instance X2 with gmd reduction
+*pvaI* Creating VA module (RRAM) for instance X1 with gmd reduction
+
+
+pVA concluded on Wed Jul 10 13:13:49 2013
+

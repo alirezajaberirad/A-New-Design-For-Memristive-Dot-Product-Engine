@@ -1,0 +1,6 @@
+$DATA1 SOURCE='HSPICE' VERSION='H-2013.03-SP2 64-BIT'
+.TITLE 'normal crossbar with normal transistors and big resistance range of memr'
+ avgpower         avg_error        avg_expected_output  
+ t0000_1111       t1111_0000       temper           alter#            
+  1.155e-05          0.1516           1.0145         4.558e-13        
+  2.862e-13         25.0000        1                 

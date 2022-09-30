@@ -1,0 +1,57 @@
+
+ --------------------------------------------------------
+|                                                        |
+|          Synopsys Unified Verilog-A (pVA v3.0)         |
+|                                                        |
+|              Machine Name: DESKTOP-O03KROI             |
+| Copyright (c) 2013 Synopsys Inc., All Rights Reserved. |
+|                                                        |
+ --------------------------------------------------------
+
+libepva built by hspmgr synmake_pva_build  on Wed Jul 24 10:18:53 CST 2013
+HSP_HOME:   C:\synopsys\Hspice_H-2013.03-SP2
+HSP_ARCH:   win64
+HSP_GCC :   C:\synopsys\Hspice_H-2013.03-SP2\GNU\win64\bin\gcc
+HSP_GCC_VER:   3.4.5
+Working-Dir: E:\UT_Courses\Project\HSPICE implementation
+Args:        -p hsp -t spi -f normal_crossbar_ideal_transistor_big_resistance_range.pvadir/pvaHDL.lis -o normal_crossbar_ideal_transistor_big_resistance_range.pvadir 
+
+### optimize mode ###
+Args: pva -p hsp -t spi -f normal_crossbar_ideal_transistor_big_resistance_range.pvadir/pvaHDL.lis -o normal_crossbar_ideal_transistor_big_resistance_range.pvadir
+
+Begin of pVA compiling on Wed Jul 10 12:22:37 2013
+
+Parsing './rram.va'
+Parsing include file 'C:/synopsys/Hspice_H-2013.03-SP2/include/constants.vams'
+Parsing include file 'C:/synopsys/Hspice_H-2013.03-SP2/include/disciplines.vams'
+
+End of pVA compiling on Wed Jul 10 12:22:37 2013
+
+
+End of build pVA DB on Wed Jul 10 12:22:37 2013
+
+*pvaI* Module (RRAM): 2 unexpanded port, 2 init, 16 behav, 5 contrib, 63/10 expr(s)
+*pvaI*        Has DIS (AE BS ST), 0 afCount, 0 MT
+*pvaI*        0 const-G and 0 const-C, No switchBranch, 0 bypassOpt
+*pvaI*        generated 4 flow node(s) during compilation.
+
+End of pVA genC on Wed Jul 10 12:22:39 2013
+
+*pvaI* #### Total 453 line-size(s), 63/10 expr(s), 5 contr(s), 2 init(s), 16 behav(s), 2 port(s)
+
+Generating normal_crossbar_ideal_transistor_big_resistance_range.pvadir\pvaRTL_win64.dll
+
+
+End of submitting pVA normal_crossbar_ideal_transistor_big_resistance_range.pvadir\pvaRTL.bat on Wed Jul 10 12:22:39 2013
+
+
+End of pVA elaboration on Wed Jul 10 12:22:39 2013
+
+*pvaI* Creating VA module (RRAM) for instance X4 with gmd reduction
+*pvaI* Creating VA module (RRAM) for instance X3 with gmd reduction
+*pvaI* Creating VA module (RRAM) for instance X2 with gmd reduction
+*pvaI* Creating VA module (RRAM) for instance X1 with gmd reduction
+
+
+pVA concluded on Wed Jul 10 12:23:14 2013
+

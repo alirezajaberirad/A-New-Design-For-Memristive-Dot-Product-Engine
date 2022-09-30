@@ -1,0 +1,22 @@
+* "simulator" "HSPICE" 
+* "version" "H-2013.03-SP2 64-BIT"
+* "format" "HSP"
+* "rundate" "12:29:41 07/10/2013 "
+* "netlist" "normal_crossbar_ideal_transistor_small_resistance_range.sp "
+* "runtitle" "normal crossbar with ideal transistors and small resistance range of m"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ bias =   0.            
++ bl1 = 333.3333m       
++ bl2 =   1.0000        
++ bl3 =   0.            
++ bl4 =   1.0000        
++ expected =   1.0000        
++ sl1 =   0.            
++ vo =   1.5831        
++ wl =   1.0000        
+***   END: Saved Operating Point ***                     
