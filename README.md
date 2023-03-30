@@ -1,4 +1,4 @@
-# A-New-Design-For-Memristive-Neural-Network-Crossbar-Array
+# A-New-Design-For-Dot-Product-Engine
  This repository includes the coding files and reporting pictures of my undergraduate project - Summer 2022 <br />
 Winner of the Best Undergraduate Project Award
 
